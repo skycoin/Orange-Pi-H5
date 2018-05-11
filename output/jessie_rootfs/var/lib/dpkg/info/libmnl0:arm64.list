@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmnl0
+/usr/share/doc/libmnl0/changelog.Debian.gz
+/usr/share/doc/libmnl0/copyright
+/lib
+/lib/aarch64-linux-gnu
+/lib/aarch64-linux-gnu/libmnl.so.0.1.0
+/lib/aarch64-linux-gnu/libmnl.so.0

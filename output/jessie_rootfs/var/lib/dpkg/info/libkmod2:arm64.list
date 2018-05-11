@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkmod2
+/usr/share/doc/libkmod2/changelog.Debian.gz
+/usr/share/doc/libkmod2/changelog.gz
+/usr/share/doc/libkmod2/copyright
+/lib
+/lib/aarch64-linux-gnu
+/lib/aarch64-linux-gnu/libkmod.so.2.2.8
+/lib/aarch64-linux-gnu/libkmod.so.2

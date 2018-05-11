@@ -1,0 +1,10 @@
+4cf8d4b521a137e9cf8a970c009ab022  lib/aarch64-linux-gnu/libhistory.so.6.3
+36999d143d174197a41bdeb29b13a531  lib/aarch64-linux-gnu/libreadline.so.6.3
+db22ab5a3d7a94ab8b0a93657b11aa08  usr/share/doc/libreadline6/README.Debian
+0bb4ff5a1ee6f767d0d1b7ded925a8a3  usr/share/doc/libreadline6/USAGE
+60f8a64d462437dad33cca2c264e4dfd  usr/share/doc/libreadline6/changelog.Debian.arm64.gz
+b4c11eeee6e937accbb82cb4e610e3e3  usr/share/doc/libreadline6/changelog.Debian.gz
+9371e569b61be7c768219d9681c1533a  usr/share/doc/libreadline6/changelog.gz
+b74c0419cd47b1683924980937c7cdb3  usr/share/doc/libreadline6/copyright
+05e58ca0def73f34efef5ff4cac6a939  usr/share/doc/libreadline6/examples/Inputrc
+244319c9dd88c980910aacd76477b8d9  usr/share/doc/libreadline6/inputrc.arrows

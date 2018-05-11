@@ -1,0 +1,11 @@
+/usr/lib/systemd/catalog systemd/noawait
+/etc/init.d systemd/noawait
+/lib/udev/hwdb.d udev/noawait
+/usr/man man-db/noawait
+/usr/share/man man-db/noawait
+/usr/local/man man-db/noawait
+/usr/local/share/man man-db/noawait
+/usr/X11R6/man man-db/noawait
+/opt/man man-db/noawait
+/etc/dbus-1/system.d dbus/noawait
+/usr/share/dbus-1/system-services dbus/noawait

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/curl.1.gz
+/usr/share/doc
+/usr/share/doc/curl
+/usr/share/doc/curl/changelog.Debian.gz
+/usr/share/doc/curl/NEWS.Debian.gz
+/usr/share/doc/curl/changelog.gz
+/usr/share/doc/curl/copyright
+/usr/bin
+/usr/bin/curl

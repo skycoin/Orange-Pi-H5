@@ -1,0 +1,24 @@
+#auto eth0
+#iface eth0 inet dhcp
+auto eth0
+    iface eth0 inet static
+        address 192.168.0.2
+	hwaddress ether 00:21:3c:32:f4:42
+#        address 192.168.0.3
+#        hwaddress ether 00:21:3c:32:f4:43
+#        address 192.168.0.4
+#        hwaddress ether 00:21:3c:32:f4:44
+#        address 192.168.0.5
+#        hwaddress ether 00:21:3c:32:f4:45
+#        address 192.168.0.6
+#        hwaddress ether 00:21:3c:32:f4:46
+#        address 192.168.0.7
+#        hwaddress ether 00:21:3c:32:f4:47
+#        address 192.168.0.8
+#        hwaddress ether 00:21:3c:32:f4:48
+#        address 192.168.0.9
+#        hwaddress ether 00:21:3c:32:f4:49
+        netmask 255.255.255.0
+        gateway 192.168.0.1
+dns-nameservers 192.168.0.1 8.8.8.8
+

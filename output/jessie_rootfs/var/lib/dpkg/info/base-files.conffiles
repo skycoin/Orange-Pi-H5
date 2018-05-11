@@ -1,0 +1,5 @@
+/etc/debian_version
+/etc/dpkg/origins/debian
+/etc/host.conf
+/etc/issue
+/etc/issue.net

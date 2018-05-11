@@ -1,0 +1,11 @@
+#
+# Testsuite failures, someone should be working towards
+# fixing these! They are listed here for the purpose of
+# regression testing during builds.
+# Format: <Failed test>, Error <Make error code> [(ignored)]
+#
+annexc.out, Error 1 (ignored)
+basic-test.out, Error 1
+run-conformtest.out, Error 1 (ignored)
+test-fenv-tls.out, Error 1
+test-fenv.out, Error 1

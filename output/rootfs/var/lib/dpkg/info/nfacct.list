@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/nfacct
+/usr/share/doc/nfacct/changelog.Debian.gz
+/usr/share/doc/nfacct/changelog.gz
+/usr/share/doc/nfacct/copyright
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/nfacct.8.gz
+/usr/sbin
+/usr/sbin/nfacct

@@ -1,0 +1,10 @@
+TARGETS = urandom alsa-utils sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot halt reboot
+sendsigs: alsa-utils
+rsyslog: sendsigs
+umountnfs.sh: sendsigs alsa-utils rsyslog
+hwclock.sh: rsyslog
+networking: umountnfs.sh
+umountfs: networking umountnfs.sh hwclock.sh alsa-utils urandom
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

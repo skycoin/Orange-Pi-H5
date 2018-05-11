@@ -1,0 +1,5 @@
+41f90e57592b65e9b9658df6002db711  usr/share/doc/libgdbm3/copyright
+cfd2bbcf04e67fd0b2c2da26f9b9a496  usr/share/doc/libgdbm3/changelog.Debian.gz
+9f2d461c8ba4aedacc2a8d4d12424fbf  usr/share/doc/libgdbm3/changelog.gz
+df74280d61fb58cfa662d424bd13254e  usr/lib/aarch64-linux-gnu/libgdbm_compat.so.3.0.0
+912566968ad593836ead08fc7a70256c  usr/lib/aarch64-linux-gnu/libgdbm.so.3.0.0

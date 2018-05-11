@@ -1,0 +1,1702 @@
+Package: bind9
+Description-md5: afd61d02df1ec6f856b928dfbf6fd201
+Description-en: Internet Domain Name Server
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package provides the server and related configuration files.
+
+Package: bind9-doc
+Description-md5: 329b8ef5cf9ad3d51ce47e6d8d13d75e
+Description-en: Documentation for BIND
+ This package provides various documents that are useful for maintaining a
+ working BIND installation.
+
+Package: bind9-host
+Description-md5: acdae162c721f5d2986f557bdefa1e70
+Description-en: Version of 'host' bundled with BIND 9.X
+ This package provides the 'host' program in the form that is bundled with
+ the BIND 9.X sources.
+
+Package: bind9utils
+Description-md5: 5f6f5621a6edd04ef33a0fe5d2d5bff8
+Description-en: Utilities for BIND
+ This package provides various utilities that are useful for maintaining a
+ working BIND installation.
+
+Package: dnsutils
+Description-md5: 11090f3795381e992a73710a1cc4118b
+Description-en: Clients provided with BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers various client programs related to DNS that are
+ derived from the BIND source tree.
+ .
+  - dig - query the DNS in various ways
+  - nslookup - the older way to do it
+  - nsupdate - perform dynamic updates (See RFC2136)
+
+Package: host
+Description-md5: 3c0b6923194ef2929ab26358ef75c037
+Description-en: Transitional package
+ This dummy package is provided for a smooth transition from the previous
+ host package.  It may safely be removed after installation.
+
+Package: libbind-dev
+Description-md5: 2224f8c1f8613ab53bfc2393a6add6a6
+Description-en: Static Libraries and Headers used by BIND
+ This package delivers archive-style libraries, header files, and API man
+ pages for libbind, libdns, libisc, and liblwres.  These are only needed
+ if you want to compile other packages that need more nameserver API than the
+ resolver code provided in libc.
+
+Package: libbind-export-dev
+Description-md5: a05e1255c8f5132e4039267975293e0e
+Description-en: Development files for the exported BIND libraries
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers development files for the exported BIND libraries.
+
+Package: libbind9-90
+Description-md5: 29eb09ddc694703c77f94b42a079fe3f
+Description-en: BIND9 Shared Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the libbind9 shared library used by BIND's daemons and
+ clients.
+
+Package: libdns-export100
+Description-md5: 52d527bf4a46771b661269a614c3c1eb
+Description-en: Exported DNS Shared Library
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the exported libdns shared library.
+
+Package: libdns100
+Description-md5: fadbc60724c646c80c4b57d45d5e5161
+Description-en: DNS Shared Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the libdns shared library used by BIND's daemons and
+ clients.
+
+Package: libirs-export91
+Description-md5: 7e57fb542b884102b27905ba45de52ac
+Description-en: Exported IRS Shared Library
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the exported libirs shared library.
+
+Package: libisc-export95
+Description-md5: cd6e16cd398bc2214c99d8500959c204
+Description-en: Exported ISC Shared Library
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the exported libisc shared library.
+
+Package: libisc95
+Description-md5: 538f08c974b457d9907e201f70a51533
+Description-en: ISC Shared Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the libisc shared library used by BIND's daemons and
+ clients.
+
+Package: libisccc90
+Description-md5: c7785673bc5b2dfed3c5bcee1452c16c
+Description-en: Command Channel Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the libisccc shared library used by BIND's daemons
+ and clients, particularly rndc.
+
+Package: libisccfg-export90
+Description-md5: b188c8f9eedec4b6c04d1dd6d0169cf4
+Description-en: Exported ISC CFG Shared Library
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the exported libisccfg shared library.
+
+Package: libisccfg90
+Description-md5: d214b6bf2b32d3830998548c9fa53da4
+Description-en: Config File Handling Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the libisccfg shared library used by BIND's daemons
+ and clients to read and write ISC-style configuration files like named.conf
+ and rndc.conf.
+
+Package: liblwres90
+Description-md5: 6c5041f39bdcc8de6092f4354d6f893b
+Description-en: Lightweight Resolver Library used by BIND
+ The Berkeley Internet Name Domain (BIND) implements an Internet domain
+ name server.  BIND is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium, www.isc.org.
+ .
+ This package delivers the liblwres shared library used by BIND's daemons
+ and clients.
+
+Package: lwresd
+Description-md5: 71f952026129db86d1ca118762b06ef2
+Description-en: Lightweight Resolver Daemon
+ lwresd is the daemon providing name lookup services to clients that use
+ the BIND 9 lightweight resolver library.  It is essentially a stripped-
+ down, caching-only name server that answers queries using the BIND 9
+ lightweight resolver protocol rather than the DNS protocol.
+
+Package: libc-icap-mod-urlcheck
+Description-md5: 8200a081f38385b61d3569124b1e21cb
+Description-en: URL Check Service for c-icap
+ This is an URL Check Service for c-icap. It is
+ distributed with c-icap and written by the same author.
+
+Package: libc-icap-mod-virus-scan
+Description-md5: 9a1feb12d473b8a6d38b3d0fdcbffc97
+Description-en: Antivirus Service for c-icap
+ This is an antivirus Service for c-icap which uses libclamav or clamd to do
+ scanning. It is distributed with c-icap and written by the same author.
+
+Package: clamav
+Description-md5: fb7be82d5591a0f3facf827f0a60c5d6
+Description-en: anti-virus utility for Unix - command-line interface
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains the command line interface. Features:
+  - built-in support for various archive formats, including Zip, Tar,
+    Gzip, Bzip2, OLE2, Cabinet, CHM, BinHex, SIS and others;
+  - built-in support for almost all mail file formats;
+  - built-in support for ELF executables and Portable Executable files
+    compressed with UPX, FSG, Petite, NsPack, wwpack32, MEW, Upack and
+    obfuscated with SUE, Y0da Cryptor and others;
+  - built-in support for popular document formats including Microsoft
+    Office and Mac Office files, HTML, RTF and PDF.
+ .
+ For scanning to work, a virus database is needed. There are two options
+ for getting it:
+  - clamav-freshclam: updates the database from Internet. This is
+    recommended with Internet access.
+  - clamav-data: for users without Internet access. The package is
+    not updated once installed. The clamav-getfiles package allows
+    creating custom packages from an Internet-connected computer.
+
+Package: clamav-base
+Description-md5: 701912f0a2cc626b57570094858a5b1d
+Description-en: anti-virus utility for Unix - base package
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package mainly manages the clamav system account. It is not really
+ useful without the clamav or clamav-daemon package.
+
+Package: clamav-daemon
+Description-md5: dc258511e9e1f62ef33172c190a0fad6
+Description-en: anti-virus utility for Unix - scanner daemon
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains the daemon featuring:
+  - fast, multi-threaded daemon;
+  - easy integration with MTA's;
+  - support for on-access scanning;
+  - remote scanning;
+  - able to be run supervised by daemon.
+
+Package: clamav-dbg
+Description-md5: b161fcac7822f321b1f9101d061dd53c
+Description-en: debug symbols for ClamAV
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains the stripped debugging symbols for the ClamAV suite.
+
+Package: clamav-docs
+Description-md5: af78818bbdf8851b6358c15693a31419
+Description-en: anti-virus utility for Unix - documentation
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains the documentation for the ClamAV suite.
+
+Package: clamav-freshclam
+Description-md5: 82c68e4f7c984e3d6bdc720ae842fca8
+Description-en: anti-virus utility for Unix - virus database update utility
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains the freshclam program and scripts to automate virus
+ database updating. It relies on an Internet connection, but can be
+ run in a variety of ways to compensate for intermittent connections.
+
+Package: clamav-milter
+Description-md5: e47a1194215b5fbde13fb9217c44d83f
+Description-en: anti-virus utility for Unix - sendmail integration
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains the ClamAV milter for use with sendmail. It can
+ be configured to be run either standalone, or using clamav-daemon.
+
+Package: clamav-testfiles
+Description-md5: 29437a0b8c82cc8179b64405688f062e
+Description-en: anti-virus utility for Unix - test files
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains files 'infected' with a test signature. The test
+ signature (ClamAV-Test-Signature) should be detectable by all
+ anti-virus programs.
+
+Package: clamdscan
+Description-md5: ad077e4c74b9870b6e7bb55aef11c547
+Description-en: anti-virus utility for Unix - scanner client
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains clamdscan, the command line interface of the clamav
+ daemon.
+
+Package: libclamav-dev
+Description-md5: 3dc197b6ebfb15522a4b7913ea796763
+Description-en: anti-virus utility for Unix - development files
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ The package contains the needed headers and libraries for
+ developing software using the libclamav interface.
+ .
+ This library can be used to develop virus scanner applications.
+
+Package: libclamav7
+Description-md5: bf2e797d0e7e410776d9200761e01bd6
+Description-en: anti-virus utility for Unix - library
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ For programs written using the libclamav library. Libclamav may be used to add
+ virus protection into software. The library is thread-safe, and automatically
+ recognizes and scans archives. Scanning is very fast and most of the time
+ not noticeable.
+
+Package: dansguardian
+Description-md5: e49d916232fc830dd2aaeb359bd27098
+Description-en: Web content filtering
+ DansGuardian filters the content of pages based on many methods
+ including phrase matching, PICS filtering and URL filtering. It does
+ not purely filter based on a banned list of sites.
+ .
+ It provides real-time virus scanning capabilities for content access.
+ .
+ DansGuardian is designed to be completely flexible and allows you to tailor
+ the filtering to your exact needs. It can be as draconian or as
+ unobstructive as you want. The default settings are geared towards what a
+ primary school might want but DansGuardian puts you in control of what you
+ want to block.
+ .
+ DansGuardian requires squid or another similar caching proxy server
+ on your local network.
+
+Package: debian-archive-keyring
+Description-md5: 4ee78d6fd2292b9893b8eb4f5d5dd91d
+Description-en: GnuPG archive keys of the Debian archive
+ The Debian project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: dns-root-data
+Description-md5: bbcb2dc96efef2350f3f0122e975cf90
+Description-en: DNS root data including root zone and DNSSEC key
+ This package contains various root zone related data as published
+ by IANA to be used by various DNS software as a common source
+ of DNS root zone data, namely:
+ .
+  * Root Hints (root.hints)
+  * Root Trust Anchors (root.key, root.ds)
+
+Package: fusionforge-full
+Description-md5: 1807a9ca0dca8f7f4a95f8edf34c5fe4
+Description-en: FusionForge collaborative development tool - full metapackage
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This metapackage installs a full FusionForge site with all plugins.
+
+Package: fusionforge-minimal
+Description-md5: fb1a5505d9b0fc9f3a45637796953ebe
+Description-en: FusionForge collaborative development tool - minimal metapackage
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This metapackage installs a minimal FusionForge site.
+
+Package: fusionforge-plugin-admssw
+Description-md5: 097d1ada3e97c46aaa16fc35f9fc801c
+Description-en: collaborative development tool - ADMS.SW plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin provides ADMS.SW additions to the DOAP RDF documents for
+ projects on /projects URLs with content-negociation
+ (application/rdf+xml).
+
+Package: fusionforge-plugin-authcas
+Description-md5: b1515ec06469baa88cea8f78ff65f197
+Description-en: collaborative development tool - CAS authentication plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains a CAS authentication mechanism for
+ FusionForge. It allows users to authenticate against an external CAS
+ server.
+
+Package: fusionforge-plugin-authhttpd
+Description-md5: f2d0df83281db6b30fc3a538e0572bda
+Description-en: collaborative development tool - HTTPD authentication plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains an HTTPD authentication mechanism for
+ FusionForge. It allows Apache authentication to be reused for
+ FusionForge, for instance where Kerberos is used.
+
+Package: fusionforge-plugin-authldap
+Description-md5: ac3922f78cc5811c0ad5df5456a1155b
+Description-en: collaborative development tool - LDAP authentication plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains an LDAP authentication mechanism for
+ FusionForge. It allows users to authenticate against an external LDAP
+ directory, and syncs some of their personal information from LDAP
+ into the FusionForge database.
+
+Package: fusionforge-plugin-blocks
+Description-md5: 09c6a4ef5622ccc6f35e84931216840f
+Description-en: collaborative development tool - Blocks plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the Blocks subsystem of FusionForge. It allows each
+ FusionForge project to have its own Blocks, and gives some
+ control over it to the project's administrator.
+
+Package: fusionforge-plugin-compactpreview
+Description-md5: 9ff016388345282456ba219395e3d05d
+Description-en: collaborative development tool - Compact Preview plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin adds support for user and project compact-preview
+ (popups) compatible with the OSLC specifications.
+
+Package: fusionforge-plugin-contribtracker
+Description-md5: b4ac97a843248b1c8553636313ca6614
+Description-en: Contribution tracker plugin for FusionForge
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin allows each project to display a list of significant
+ contributions, along with their authors.
+
+Package: fusionforge-plugin-doaprdf
+Description-md5: 9cadc82bfd6da43ba8a6f93c2af97853
+Description-en: collaborative development tool - DOAP RDF plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin provides DOAP RDF documents for projects on /projects URLs
+ with content-negociation (application/rdf+xml).
+
+Package: fusionforge-plugin-extsubproj
+Description-md5: 57c38878bd9f3d1fdf264824e4cd20c0
+Description-en: collaborative development tool - extsubproj plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the extsubproj subsystem of FusionForge. It allows each
+ FusionForge project to have its own extsubproj, and gives some
+ control over it to the project's administrator.
+
+Package: fusionforge-plugin-foafprofiles
+Description-md5: c9448c2acbab739371c779df8c614a48
+Description-en: collaborative development tool - FOAF Profiles plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin provides FOAF profiles for users on /users URLs
+ with content-negociation (application/rdf+xml).
+
+Package: fusionforge-plugin-globalsearch
+Description-md5: 5dd9a6f142c4bff7905efad15bf81cf8
+Description-en: Globalsearch plugin for FusionForge
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains a cross-FusionForge search engine.  You can
+ declare a list of other FusionForge sites, and search for projects
+ hosted on these forges from your own.
+
+Package: fusionforge-plugin-gravatar
+Description-md5: ae15a4ddb602eec4acc7bebe02071b29
+Description-en: collaborative development tool - Gravatar plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the gravatar plugin of FusionForge. It allows each
+ FusionForge user to have its gravatar icon displayed.
+
+Package: fusionforge-plugin-headermenu
+Description-md5: 112e29dcacfe43fda8fc96a48d481b69
+Description-en: Headermenu plugin for FusionForge
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin allows each project to define extra tabs with arbitrary
+ titles and links.
+
+Package: fusionforge-plugin-hudson
+Description-md5: fe3621082857f2b52b1942447721dfb1
+Description-en: collaborative development tool - Hudson plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the Hudson subsystem of FusionForge. It allows each
+ FusionForge project to have its own Hudson, and gives some
+ control over it to the project's administrator.
+
+Package: fusionforge-plugin-message
+Description-md5: aedd32ccf60d7f047c3cb1c6e396a587
+Description-en: Message plugin for FusionForge
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin allows the site administrator to display a message banner
+ on all pages, e.g. for maintenance announcements.
+
+Package: fusionforge-plugin-moinmoin
+Description-md5: 09ac92fc02f291f523f7c8b210abea0c
+Description-en: MoinMoinWiki plugin for FusionForge
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin allows each project to embed MoinMoinWiki under a tab.
+
+Package: fusionforge-plugin-projectlabels
+Description-md5: 96716417d9140018d4c4aa9e397495c5
+Description-en: Projectlabels plugin for FusionForge
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This can be used to highlight some projects on a forge, for instance
+ for a "project of the month".
+
+Package: fusionforge-plugin-scmarch
+Description-md5: 747e7ac4bca47320eb3efa58461e4ae1
+Description-en: collaborative development tool - GNU Arch plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the GNU Arch subsystem of FusionForge. It allows
+ each FusionForge project to have its own Arch repository, and gives
+ some control over it to the project's administrator.
+
+Package: fusionforge-plugin-scmbzr
+Description-md5: bc84963da2a9da82282976ca17cd4aeb
+Description-en: collaborative development tool - Bazaar plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the Bazaar subsystem of FusionForge. It allows each
+ FusionForge project to have its own Bazaar repository, and gives some control
+ over it to the project's administrator.
+
+Package: fusionforge-plugin-scmcvs
+Description-md5: a00876303d1a2430c52b6138560d05bf
+Description-en: collaborative development tool - CVS plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the CVS subsystem of FusionForge. It allows each
+ FusionForge project to have its own CVS repository, and gives some control
+ over it to the project's administrator.
+
+Package: fusionforge-plugin-scmdarcs
+Description-md5: e6db6d1f596f710ffea5da4c49ffc231
+Description-en: collaborative development tool - Darcs plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the Darcs subsystem of FusionForge. It allows each
+ FusionForge project to have its own Darcs repository, and gives some control
+ over it to the project's administrator.
+
+Package: fusionforge-plugin-scmgit
+Description-md5: cccb3fc41a768ad9c7c8a5a92e7393f6
+Description-en: collaborative development tool - Git plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the Git subsystem of FusionForge. It allows each
+ FusionForge project to have its own Git repository, and gives some
+ control over it to the project's administrator.
+
+Package: fusionforge-plugin-scmhg
+Description-md5: 47e9520f1c7238bbb2c528daddc022eb
+Description-en: collaborative development tool - Mercurial (Hg) plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the Mercurial (Hg) subsystem of FusionForge. It
+ allows each FusionForge project to have its own Mercurial repository,
+ and gives some control over it to the project's administrator.
+
+Package: fusionforge-plugin-scmhook
+Description-md5: e858ba84ae93c928330572c31a3523ef
+Description-en: collaborative development tool - SCM Hook plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains a set of commit hooks (e-mail notifications,
+ tracker integration, conformity...) that can be enabled for each
+ project independently.
+
+Package: fusionforge-plugin-scmsvn
+Description-md5: 11e7826adf94157ce84f01dff2469d3c
+Description-en: collaborative development tool - Subversion plugin
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin contains the Subversion subsystem of FusionForge. It allows
+ each FusionForge project to have its own Subversion repository, and gives
+ some control over it to the project's administrator.
+
+Package: fusionforge-plugin-sysauthldap
+Description-md5: b34372a911ef5b12c742e044a1882e51
+Description-en: collaborative development tool - system authentication via LDAP
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This plugin maintains data about users, groups and memberships in an
+ LDAP directory that can be used for NSS/PAM system authentication (or
+ for other uses).
+
+Package: fusionforge-standard
+Description-md5: 59a916543acaf0c12e3451948149e721
+Description-en: FusionForge collaborative development tool - standard metapackage
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This metapackage installs a standard FusionForge site.
+
+Package: gforge
+Description-md5: adc3917dd5c2f9bf042b3f571746f04c
+Description-en: Dummy upgrade package for FusionForge
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This is a transitional package and can safely be removed; see the
+ fusionforge-standard package instead.
+
+Package: gforge-common
+Description-md5: 964b1af8dca2d5ec0794f9a4155bf79c
+Description-en: collaborative development tool - shared files
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package contains files and programs used by several other
+ subpackages.
+
+Package: gforge-db-postgresql
+Description-md5: b127425d81f845b4dd611c64da427886
+Description-en: collaborative development tool - database (using PostgreSQL)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package installs, configures and maintains the FusionForge
+ database.
+
+Package: gforge-db-remote
+Description-md5: 31a6c3db4c766dc3972d748ddb96f242
+Description-en: collaborative development tool - database (remote)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This dummy package tells FusionForge you installed the database on a
+ separate machine.  It preserves the gforge-db virtual dependency, to
+ configure the database before depending packages in single-server
+ installs.
+
+Package: gforge-dns-bind9
+Description-md5: 1bd38baa7626227e6bde7269319cc459
+Description-en: collaborative development tool - DNS management (using Bind9)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package configures and maintains the DNS zones for FusionForge.
+
+Package: gforge-ftp-proftpd
+Description-md5: 94771c923e08329895a597b80ea3b2b6
+Description-en: collaborative development tool - FTP management (using ProFTPd)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package configures the ProFTPd FTP server for FusionForge.
+
+Package: gforge-lists-mailman
+Description-md5: 2eb4904e3d327210ecd793f9057593bb
+Description-en: collaborative development tool - mailing-lists (using Mailman)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package controls the interaction between FusionForge and Mailman.
+
+Package: gforge-mta-exim4
+Description-md5: 2553fd2914c6db688520193aa94d8d5b
+Description-en: collaborative development tool - mail tools (using Exim 4)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package configures the Exim 4 mail transfer agent to run
+ FusionForge.
+
+Package: gforge-mta-postfix
+Description-md5: 6f6fa46ecdf780c678f4757b8f3492d7
+Description-en: collaborative development tool - mail tools (using Postfix)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package configures the Postfix mail transfer agent to run
+ FusionForge.
+
+Package: gforge-shell-postgresql
+Description-md5: 83bd30796c36e4e77e1937575e5dfa09
+Description-en: collaborative development tool - shell accounts (using PostgreSQL)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package provides shell accounts authenticated via the PostGreSQL
+ database to FusionForge users.
+
+Package: gforge-web-apache2
+Description-md5: 862c5209a0e8f5a414a252daac8514c6
+Description-en: collaborative development tool - web part (using Apache)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package contains the files needed to run the web part of
+ FusionForge on an Apache webserver.
+
+Package: gforge-web-apache2-vhosts
+Description-md5: 15ed300cc49917d47ea6724f0896ce6d
+Description-en: collaborative development tool - web vhosts (using Apache)
+ FusionForge provides many tools to aid collaboration in a
+ development project, such as bug-tracking, task management,
+ mailing-lists, SCM repository, forums, support request helper,
+ web/FTP hosting, release management, etc. All these services are
+ integrated into one web site and managed through a web interface.
+ .
+ This package contains the files needed to run project vhosts
+ on an Apache webserver.
+
+Package: havp
+Description-md5: 9a86c1dfa5f633dbbde0d75c2edbb28a
+Description-en: HTTP Anti Virus Proxy
+ HAVP (HTTP Antivirus Proxy) is a proxy with a ClamAV anti-virus scanner. The
+ main aims are continuous, non-blocking downloads and smooth scanning of
+ dynamic and password protected HTTP traffic. Havp antivirus proxy has a
+ parent and transparent proxy mode. It can be used with squid or standalone.
+
+Package: libdatetime-timezone-perl
+Description-md5: 49fff32146b7c0ac14d7bcca1f92bfe6
+Description-en: framework exposing the Olson time zone database to Perl
+ DateTime::TimeZone is a Perl module framework providing an interface to the
+ Olson time zone database. It exposes the database as a set of modules, one
+ for each time zone defined, allowing for various optimizations in doing time
+ zone calculations.
+ .
+ The Olson time zone database is the best available source for worldwide time
+ zone information and is available from <URL:ftp://ftp.iana.org/tz/releases/>.
+
+Package: libdevel-declare-perl
+Description-md5: b1fb2e3a206c7c529fa629292fa647a0
+Description-en: module to add new syntax to Perl
+ Devel::Declare can install subroutines called declarators which locally take
+ over control of Perl's parser, allowing the creation of new syntax, including
+ keywords and other constructs that might not be, in themselves, valid Perl 5
+ code.
+ .
+ This module can be used for adding new keywords, completely in Perl code. It
+ allows a subroutine to be executed during the Perl code compilation, meaning
+ that syntax can be transformed into equivalent code for Perl on-the-fly.
+
+Package: linux-compiler-gcc-4.8-arm
+Description-md5: 8dc84d288a935263f31f6fd09656012c
+Description-en: Compiler for Linux on ARM (meta-package)
+ This package depends on gcc 4.8 of the appropriate architecture for Linux
+ on armel and armhf.
+
+Package: linux-compiler-gcc-4.8-s390
+Description-md5: 22c19ac8c8c2c06c5771c48a1151fbe0
+Description-en: Compiler for Linux on IBM zSeries (meta-package)
+ This package depends on gcc 4.8 of the appropriate architecture for Linux
+ on s390 and s390x.
+
+Package: linux-compiler-gcc-4.8-x86
+Description-md5: 07390d44d60e795ce75e75f74dcfb371
+Description-en: Compiler for Linux on x86 (meta-package)
+ This package depends on gcc 4.8 of the appropriate architecture for Linux
+ on amd64, i386 and x32.
+
+Package: linux-doc-3.16
+Description-md5: 3b8f12a01f78ef516ba5e9c9d5d0bf0f
+Description-en: Linux kernel specific documentation for version 3.16
+ This package provides the various README files and HTML documentation for
+ the Linux kernel version 3.16.  Plenty of information, including the
+ descriptions of various kernel subsystems, filesystems, driver-specific
+ notes and the like.  Consult the file
+ /usr/share/doc/linux-doc-3.16/Documentation/00-INDEX for the detailed
+ description of the contents.
+
+Package: linux-headers-3.16.0-4-4kc-malta
+Description-md5: f45ae50974968d45093bfb633268df75
+Description-en: Header files for Linux 3.16.0-4-4kc-malta
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-4kc-malta, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-4kc-malta, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-4kc-malta package.
+
+Package: linux-headers-3.16.0-4-586
+Description-md5: 038d049157664ccfb23ff13d53e51149
+Description-en: Header files for Linux 3.16.0-4-586
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-586, generally used for building out-of-tree kernel
+ modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-586, and can be used for building modules
+ that load into the kernel provided by the linux-image-3.16.0-4-586
+ package.
+
+Package: linux-headers-3.16.0-4-5kc-malta
+Description-md5: c30bf0c151aad35272b9878f7aa020cb
+Description-en: Header files for Linux 3.16.0-4-5kc-malta
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-5kc-malta, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-5kc-malta, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-5kc-malta package.
+
+Package: linux-headers-3.16.0-4-686-pae
+Description-md5: 193dbd60055cae192f016c0e8a0f9e67
+Description-en: Header files for Linux 3.16.0-4-686-pae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-686-pae, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-686-pae, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-686-pae package.
+
+Package: linux-headers-3.16.0-4-all
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-amd64
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-arm64
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-armel
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-armhf
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-i386
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-mips
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-mipsel
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-powerpc
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-ppc64el
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-all-s390x
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Description-en: All header files for Linux 3.16 (meta-package)
+ This package depends against all architecture-specific kernel header files
+ for Linux kernel version 3.16, generally used for building out-of-tree
+ kernel modules.
+
+Package: linux-headers-3.16.0-4-amd64
+Description-md5: cbf21fb1a9f722193df5ce406738257f
+Description-en: Header files for Linux 3.16.0-4-amd64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-amd64, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-amd64, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-amd64 package.
+
+Package: linux-headers-3.16.0-4-arm64
+Description-md5: 5da2535b2a5a524da9c12e857183a9a9
+Description-en: Header files for Linux 3.16.0-4-arm64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-arm64, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-arm64, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-arm64 package.
+
+Package: linux-headers-3.16.0-4-armmp
+Description-md5: d9f6ec3df651806371f4925ebca91ad0
+Description-en: Header files for Linux 3.16.0-4-armmp
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-armmp, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-armmp, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-armmp package.
+
+Package: linux-headers-3.16.0-4-armmp-lpae
+Description-md5: 3cc7941e37bef8da82b7a7ef8a8ec54f
+Description-en: Header files for Linux 3.16.0-4-armmp-lpae
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-armmp-lpae, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-armmp-lpae, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-armmp-lpae package.
+
+Package: linux-headers-3.16.0-4-common
+Description-md5: 658653ebe375fb448948108320535714
+Description-en: Common header files for Linux 3.16.0-4
+ This package provides the architecture-specific common kernel header files
+ for Linux kernel version 3.16.0-4, generally used for building out-of-tree
+ kernel modules.  To obtain a complete set of headers you also need to
+ install the linux-headers-3.16.0-4-(flavour) package, matching the flavour
+ of the kernel you intend the build for.
+
+Package: linux-headers-3.16.0-4-ixp4xx
+Description-md5: cb0c912df98311b7ab01e79c94285aff
+Description-en: Header files for Linux 3.16.0-4-ixp4xx
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-ixp4xx, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-ixp4xx, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-ixp4xx package.
+
+Package: linux-headers-3.16.0-4-kirkwood
+Description-md5: a50182adca7e5bfc70e2ff1e7ae659b5
+Description-en: Header files for Linux 3.16.0-4-kirkwood
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-kirkwood, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-kirkwood, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-kirkwood package.
+
+Package: linux-headers-3.16.0-4-loongson-2e
+Description-md5: 4c92a7c2a2408a1ba32d74e63ddd2811
+Description-en: Header files for Linux 3.16.0-4-loongson-2e
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-loongson-2e, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-loongson-2e, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-loongson-2e package.
+
+Package: linux-headers-3.16.0-4-loongson-2f
+Description-md5: 5b84e0eda543c263176224de287f2f68
+Description-en: Header files for Linux 3.16.0-4-loongson-2f
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-loongson-2f, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-loongson-2f, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-loongson-2f package.
+
+Package: linux-headers-3.16.0-4-loongson-3
+Description-md5: 8383770b393cf41f3676fd3005b4899d
+Description-en: Header files for Linux 3.16.0-4-loongson-3
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-loongson-3, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-loongson-3, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-loongson-3 package.
+
+Package: linux-headers-3.16.0-4-octeon
+Description-md5: 6929692804ee6d8110722cc243c403cc
+Description-en: Header files for Linux 3.16.0-4-octeon
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-octeon, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-octeon, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-octeon package.
+
+Package: linux-headers-3.16.0-4-orion5x
+Description-md5: 64485c59b3b3c69ea76545c22503c286
+Description-en: Header files for Linux 3.16.0-4-orion5x
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-orion5x, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-orion5x, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-orion5x package.
+
+Package: linux-headers-3.16.0-4-powerpc
+Description-md5: 6c3620824c152fff92576b815b8bfccc
+Description-en: Header files for Linux 3.16.0-4-powerpc
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-powerpc, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-powerpc, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-powerpc package.
+
+Package: linux-headers-3.16.0-4-powerpc-smp
+Description-md5: 8c65bf3b5e871622875caa9877ff3d70
+Description-en: Header files for Linux 3.16.0-4-powerpc-smp
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-powerpc-smp, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-powerpc-smp, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-powerpc-smp package.
+
+Package: linux-headers-3.16.0-4-powerpc64
+Description-md5: 237fbe715d5ba5359a3607acb238d67e
+Description-en: Header files for Linux 3.16.0-4-powerpc64
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-powerpc64, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-powerpc64, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-powerpc64 package.
+
+Package: linux-headers-3.16.0-4-powerpc64le
+Description-md5: e7700dc3140b4d9ef93cd268b316fdef
+Description-en: Header files for Linux 3.16.0-4-powerpc64le
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-powerpc64le, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-powerpc64le, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-powerpc64le package.
+
+Package: linux-headers-3.16.0-4-r4k-ip22
+Description-md5: f9cc45f089f1e625212bf8eaa7265874
+Description-en: Header files for Linux 3.16.0-4-r4k-ip22
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-r4k-ip22, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-r4k-ip22, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-r4k-ip22 package.
+
+Package: linux-headers-3.16.0-4-r5k-ip32
+Description-md5: 4e14f9db8e15d9e58ae7066ceaffb985
+Description-en: Header files for Linux 3.16.0-4-r5k-ip32
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-r5k-ip32, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-r5k-ip32, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-r5k-ip32 package.
+
+Package: linux-headers-3.16.0-4-s390x
+Description-md5: f03e28dd6e1d485b4ded2d3035e6f9a4
+Description-en: Header files for Linux 3.16.0-4-s390x
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-s390x, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-s390x, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-s390x package.
+
+Package: linux-headers-3.16.0-4-sb1-bcm91250a
+Description-md5: f3ea3d78541f9ff9879198ee10a2e930
+Description-en: Header files for Linux 3.16.0-4-sb1-bcm91250a
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-sb1-bcm91250a, generally used for building
+ out-of-tree kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-sb1-bcm91250a, and can be used for
+ building modules that load into the kernel provided by the
+ linux-image-3.16.0-4-sb1-bcm91250a package.
+
+Package: linux-headers-3.16.0-4-versatile
+Description-md5: 2102bc1d51cd6fae8dde406cc8fe6b89
+Description-en: Header files for Linux 3.16.0-4-versatile
+ This package provides the architecture-specific kernel header files for
+ Linux kernel 3.16.0-4-versatile, generally used for building out-of-tree
+ kernel modules.  These files are going to be installed into
+ /usr/src/linux-headers-3.16.0-4-versatile, and can be used for building
+ modules that load into the kernel provided by the
+ linux-image-3.16.0-4-versatile package.
+
+Package: linux-image-3.16.0-4-4kc-malta
+Description-md5: e68074499cdc6e063c3172877468b9df
+Description-en: Linux 3.16 for MIPS Malta
+ The Linux kernel 3.16 and modules for use on MIPS Malta boards.
+
+Package: linux-image-3.16.0-4-586
+Description-md5: 39aa963faaf178850466bf90be79557a
+Description-en: Linux 3.16 for older PCs
+ The Linux kernel 3.16 and modules for use on PCs with a single processor
+ not supporting PAE.
+ .
+ This kernel is not suitable for SMP (multi-processor, multi-core or
+ hyper-threaded) systems.
+
+Package: linux-image-3.16.0-4-5kc-malta
+Description-md5: e289f41954353d5effca4e22d5c85d3d
+Description-en: Linux 3.16 for MIPS Malta (64-bit)
+ The Linux kernel 3.16 and modules for use on MIPS Malta boards (64-bit).
+
+Package: linux-image-3.16.0-4-686-pae
+Description-md5: b2c3f405aab9f0fe07863b318891f277
+Description-en: Linux 3.16 for modern PCs
+ The Linux kernel 3.16 and modules for use on PCs with one or more
+ processors supporting PAE.
+ .
+ This kernel requires PAE (Physical Address Extension). This feature is
+ supported by the Intel Pentium Pro/II/III/4/4M/D, Xeon, Core and Atom; AMD
+ Geode NX, Athlon (K7), Duron, Opteron, Sempron, Turion or Phenom;
+ Transmeta Efficeon; VIA C7; and some other processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-image-3.16.0-4-686-pae-dbg
+Description-md5: 899bffe1e11e51ee02a114d7643c73b8
+Description-en: Debugging symbols for Linux 3.16.0-4-686-pae
+ This package provides the detached debugging symbols for the Linux kernel
+ and modules in linux-image-3.16.0-4-686-pae.
+
+Package: linux-image-3.16.0-4-amd64
+Description-md5: eb8d19ca58e771c137b96a59fda87ca7
+Description-en: Linux 3.16 for 64-bit PCs
+ The Linux kernel 3.16 and modules for use on PCs with AMD64, Intel 64 or
+ VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
+
+Package: linux-image-3.16.0-4-amd64-dbg
+Description-md5: 8c26dca1771f49da6036819b6a89483e
+Description-en: Debugging symbols for Linux 3.16.0-4-amd64
+ This package provides the detached debugging symbols for the Linux kernel
+ and modules in linux-image-3.16.0-4-amd64.
+
+Package: linux-image-3.16.0-4-arm64
+Description-md5: 7b3ed18b55aea8682505cb9950480464
+Description-en: Linux 3.16 for 64-bit ARMv8 machines
+ The Linux kernel 3.16 and modules for use on 64-bit ARMv8 machines.
+
+Package: linux-image-3.16.0-4-arm64-dbg
+Description-md5: d7560e8c53796405ea9bf1e60d6ca3f2
+Description-en: Debugging symbols for Linux 3.16.0-4-arm64
+ This package provides the detached debugging symbols for the Linux kernel
+ and modules in linux-image-3.16.0-4-arm64.
+
+Package: linux-image-3.16.0-4-armmp
+Description-md5: 882c916e228148335e32d3d79caa28af
+Description-en: Linux 3.16 for ARMv7 multiplatform compatible SoCs
+ The Linux kernel 3.16 and modules for use on ARMv7 multiplatform kernel.
+ See https://wiki.debian.org/DebianKernel/ARMMP for details of supported
+ platforms.
+
+Package: linux-image-3.16.0-4-armmp-lpae
+Description-md5: e8e0956813ff8a0dc90b57d3074ff08e
+Description-en: Linux 3.16 for ARMv7 multiplatform compatible SoCs supporting LPAE
+ The Linux kernel 3.16 and modules for use on ARMv7 multiplatform kernel
+ supporting LPAE. See https://wiki.debian.org/DebianKernel/ARMMP for
+ details of supported platforms..
+
+Package: linux-image-3.16.0-4-ixp4xx
+Description-md5: 7bf869a0bcdf7391712b3ec151e0dd58
+Description-en: Linux 3.16 for IXP4xx
+ The Linux kernel 3.16 and modules for use on IXP4xx based systems (Linksys
+ NSLU2, etc).
+
+Package: linux-image-3.16.0-4-kirkwood
+Description-md5: 92df4a3cb6d64137c1f22b49079d2a8e
+Description-en: Linux 3.16 for Marvell Kirkwood
+ The Linux kernel 3.16 and modules for use on Marvell Kirkwood based
+ systems (SheevaPlug, QNAP TS-119/TS-219, etc).
+
+Package: linux-image-3.16.0-4-loongson-2e
+Description-md5: 2c738b6f2b9547592d26407235e6451f
+Description-en: Linux 3.16 for Loongson 2E
+ The Linux kernel 3.16 and modules for use on Lemote Loongson 2E systems.
+
+Package: linux-image-3.16.0-4-loongson-2f
+Description-md5: 000fd1f8a27d9dda977cd6735a46ccb7
+Description-en: Linux 3.16 for Loongson 2F
+ The Linux kernel 3.16 and modules for use on Lemote Loongson 2F systems.
+
+Package: linux-image-3.16.0-4-loongson-3
+Description-md5: 33224a2fd492a3433492466793151d7f
+Description-en: Linux 3.16 for Loongson 3A/3B
+ The Linux kernel 3.16 and modules for use on Loongson 3A or 3B based
+ systems (e.g.  from Loongson or Lemote).
+
+Package: linux-image-3.16.0-4-octeon
+Description-md5: 27cd8ad82be84f33a26a5fd6631d1c78
+Description-en: Linux 3.16 for Octeon
+ The Linux kernel 3.16 and modules for use on Cavium Networks Octeon.
+
+Package: linux-image-3.16.0-4-orion5x
+Description-md5: 14cfaca7ca5f026a06657fba2ea54328
+Description-en: Linux 3.16 for Marvell Orion
+ The Linux kernel 3.16 and modules for use on Marvell Orion 5181, 5182 and
+ 5281 based systems (QNAP TS-109/TS-209, etc).
+
+Package: linux-image-3.16.0-4-powerpc
+Description-md5: 93685b6002fba3f26cb1f49943830ff0
+Description-en: Linux 3.16 for uniprocessor 32-bit PowerPC
+ The Linux kernel 3.16 and modules for use on uniprocessor 32-bit PowerPC.
+
+Package: linux-image-3.16.0-4-powerpc-smp
+Description-md5: 55aa0f176bfeb4808b78c3c64489c1f8
+Description-en: Linux 3.16 for multiprocessor 32-bit PowerPC
+ The Linux kernel 3.16 and modules for use on multiprocessor 32-bit
+ PowerPC.
+
+Package: linux-image-3.16.0-4-powerpc64
+Description-md5: 3caf0bb10008865e96292447f3f20c5a
+Description-en: Linux 3.16 for 64-bit PowerPC
+ The Linux kernel 3.16 and modules for use on 64-bit PowerPC.
+
+Package: linux-image-3.16.0-4-powerpc64le
+Description-md5: df7449a61cfd4158a67dc5d591b96699
+Description-en: Linux 3.16 for Little-endian 64-bit PowerPC
+ The Linux kernel 3.16 and modules for use on Little-endian 64-bit PowerPC.
+
+Package: linux-image-3.16.0-4-r4k-ip22
+Description-md5: b763d1f47bbc329218ef6ac7f2449671
+Description-en: Linux 3.16 for SGI IP22
+ The Linux kernel 3.16 and modules for use on SGI IP22 systems (Indy,
+ Indigo2).
+
+Package: linux-image-3.16.0-4-r5k-ip32
+Description-md5: 6a8bace5f8d814cf9383205c21fdb414
+Description-en: Linux 3.16 for SGI IP32
+ The Linux kernel 3.16 and modules for use on SGI IP32 systems (O2).
+
+Package: linux-image-3.16.0-4-s390x
+Description-md5: 784bfc4cf1440e05938476fa4a3c6b88
+Description-en: Linux 3.16 for IBM zSeries
+ The Linux kernel 3.16 and modules for use on IBM zSeries.
+
+Package: linux-image-3.16.0-4-s390x-dbg
+Description-md5: ae763f220bf23e175e9788eefa81fcb4
+Description-en: Debugging symbols for Linux 3.16.0-4-s390x
+ This package provides the detached debugging symbols for the Linux kernel
+ and modules in linux-image-3.16.0-4-s390x.
+
+Package: linux-image-3.16.0-4-sb1-bcm91250a
+Description-md5: 16c6348c257ef28cd1e8e1df7c104af7
+Description-en: Linux 3.16 for BCM91250A
+ The Linux kernel 3.16 and modules for use on Broadcom BCM91250A systems
+ (aka SWARM).
+
+Package: linux-image-3.16.0-4-versatile
+Description-md5: c7363dd82378caf8a0cfe3929eab5f6d
+Description-en: Linux 3.16 for Versatile
+ The Linux kernel 3.16 and modules for use on Versatile systems (PB, AB,
+ Qemu).
+
+Package: linux-libc-dev
+Description-md5: f310daf8fb891639ee6eeeb4020a7c13
+Description-en: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These
+ headers are used by the installed headers for GNU libc and other system
+ libraries.
+
+Package: linux-manual-3.16
+Description-md5: 276b5788a7e4d667f1c2a94e2ec4e952
+Description-en: Linux kernel API manual pages for version 3.16
+ This package provides the Kernel Hacker's Guide in the form of manual
+ pages, describing the kernel API functions.  They are installed into
+ section 9 of the manual.
+ .
+ As the files containing manual pages for different kernel versions are
+ installed in the same location, only one linux-manual package may be
+ installed at a time.  The linux-doc package containing the documentation
+ in other formats is free from such restriction.
+
+Package: linux-source-3.16
+Description-md5: 150fd1fc695786c4a4a7506f77975e02
+Description-en: Linux kernel source for version 3.16 with Debian patches
+ This package provides source code for the Linux kernel version 3.16. This
+ source closely tracks official Linux kernel releases.  Debian's
+ modifications to that source consist of security fixes, bug fixes, and
+ features that have already been (or are believed to be) accepted by the
+ upstream maintainers.
+
+Package: linux-support-3.16.0-4
+Description-md5: 89975a6239acce6c9e6fbde2f804f100
+Description-en: Support files for Linux 3.16
+ This package provides support files for the Linux kernel build, e.g.
+ scripts to handle ABI information and for generation of build system meta
+ data.
+
+Package: xen-linux-system-3.16.0-4-amd64
+Description-md5: 120400f93ebde659304f3ab95ba77fc7
+Description-en: Xen system with Linux 3.16 on 64-bit PCs (meta-package)
+ This package depends on the binary Linux image and hypervisors.
+
+Package: python-pyclamav
+Description-md5: ca502c4caa9aef15df928f6d524ffb35
+Description-en: Python bindings to ClamAV
+ This package adds virus detection capabilities to Python software, thanks to
+ the ClamAV antivirus toolkit without the need for running clamav-daemon. For
+ virus scanning with clamav-daemon, python-pyclamd is an available
+ alternative.
+
+Package: tzdata
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Description-en: time zone and daylight-saving time data
+ This package contains data required for the implementation of
+ standard local time for many representative locations around the
+ globe. It is updated periodically to reflect changes made by
+ political bodies to time zone boundaries, UTC offsets, and
+ daylight-saving rules.
+
+Package: tzdata-java
+Description-md5: 811cf395ae4cc676283711d9bc20443f
+Description-en: time zone and daylight-saving time data for use by java runtimes
+ This package contains data required for the implementation of
+ standard local time for many representative locations around the
+ globe. It is updated periodically to reflect changes made by
+ political bodies to time zone boundaries, UTC offsets, and
+ daylight-saving rules.
+ .
+ This package contains the data for use by Java runtimes.
+
+Package: libunbound-dev
+Description-md5: ed3009c5a462f3287f75c961064034a6
+Description-en: static library, header files, and docs for libunbound
+ Static library, header files, and documentation for libunbound.
+ .
+ libunbound performs and validates DNS lookups; it can be used to convert
+ hostnames to IP addresses and back and obtain other information from the
+ DNS. Cryptographic validation of results is performed with DNSSEC.
+
+Package: libunbound2
+Description-md5: 2be0d2578ccb5656d253e8013682ad4a
+Description-en: library implementing DNS resolution and validation
+ libunbound performs and validates DNS lookups; it can be used to convert
+ hostnames to IP addresses and back and obtain other information from the
+ DNS. Cryptographic validation of results is performed with DNSSEC.
+
+Package: python-unbound
+Description-md5: 103cd64b79e42ad710e19fe727ffce50
+Description-en: library implementing DNS resolution and validation (Python bindings)
+ Python extension module for libunbound.
+ .
+ libunbound performs and validates DNS lookups; it can be used to convert
+ hostnames to IP addresses and back and obtain other information from the
+ DNS. Cryptographic validation of results is performed with DNSSEC.
+
+Package: unbound
+Description-md5: fbeecad8349f6b3042087b256bc69b68
+Description-en: validating, recursive, caching DNS resolver
+ Unbound is a recursive-only caching DNS server which can perform DNSSEC
+ validation of results. It implements only a minimal amount of authoritative
+ service to prevent leakage to the root nameservers: forward lookups for
+ localhost, reverse for 127.0.0.1 and ::1, and NXDOMAIN for zones served by
+ AS112. Stub and forward zones are supported.
+ .
+ This package contains the unbound daemon.
+
+Package: unbound-anchor
+Description-md5: f49fb3435120bde9cd4af959aeac719c
+Description-en: utility to securely fetch the root DNS trust anchor
+ unbound-anchor is a utility which securely fetches or updates the root DNS
+ zone trust anchor. A copy of the current root anchor and root update
+ certificate is embedded in unbound-anchor. RFC 5011 trust anchor tracking is
+ performed, with fallback to an SSL fetch if this fails.
+
+Package: unbound-host
+Description-md5: 287e113772f55d3575bb8577560cb3eb
+Description-en: reimplementation of the 'host' command
+ This package provides the 'unbound-host' program that is bundled with the
+ Unbound domain name server. This version differs from the one provided in the
+ package called host, which is from NIKHEF, and bind9-host, which is from ISC,
+ and has a similar but different set of features and options.
+
+Package: xscreensaver
+Description-md5: 15e58e0cb46072efd851de6fc63fac05
+Description-en: Screensaver daemon and frontend for X11
+ XScreenSaver is a modular screen saver and locker for X11,
+ containing more than 200 screen savers.
+ .
+ This package includes the bare minimum needed to blank and lock
+ your screen. Install this package if you prefer xscreensaver to
+ gnome-screensaver. If you prefer gnome-screensaver, you don't
+ need to install this package.
+ .
+ The graphical display modes are in the xscreensaver-data,
+ xscreensaver-data-extra, xscreensaver-gl and xscreensaver-gl-extra
+ packages.
+
+Package: xscreensaver-data
+Description-md5: e7e01a2105444827e4560fcfb1e265ff
+Description-en: Screen saver modules for screensaver frontends
+ XScreenSaver is a modular screen saver and locker for X11,
+ containing more than 200 screen savers.
+ .
+ This package contains a small selection of graphical screen saver
+ modules (listed below) from the xscreensaver collection. This package
+ is used by both xscreensaver and gnome-screensaver.
+ .
+ This is the selected set of non-GL screensavers shipped by default:
+ abstractile, cwaves, deco, distort, fiberlamp, fuzzyflakes, galaxy,
+ hexadrop, m6502, metaballs, penrose, ripples, shadebobs, slidescreen,
+ swirl, tessellimage, xlyap.
+ .
+ More display modes can be found in xscreensaver-data-extra, xscreensaver-gl
+ and xscreensaver-gl-extra packages.
+
+Package: xscreensaver-data-extra
+Description-md5: 04c00be2be947aac394708c2711e1d2f
+Description-en: Extra screen saver modules for screensaver frontends
+ XScreenSaver is a modular screen saver and locker for X11,
+ containing more than 200 screen savers.
+ .
+ This package contains the rest of the 2D screen saver modules
+ from the xscreensaver collection. This package is used by both
+ xscreensaver and gnome-screensaver.
+ .
+ This is the set of non-GL screensavers not shipped by default:
+ anemone, anemotaxis, apollonian, apple2, attraction, barcode, blaster,
+ blitspin, bouboule, boxfit, braid, bumps, ccurve, celtic, cloudlife,
+ compass, coral, crystal, cynosure, decayscreen, deluxe, demon,
+ discrete, drift, epicycle, eruption, euler2d, fadeplot, fireworkx,
+ flame, flow, fluidballs, fontglide, goop, grav, greynetic, halftone,
+ halo, helix, hopalong, ifs, imsmap, interaggregate, interference,
+ intermomentary, julia, kaleidescope, kumppa, lcdscrub, ljlatest, loop,
+ maze, memscroller, moire2, moire, mountain, munch, nerverot, noseguy,
+ pacman, pedal, penetrate, petri, phosphor, piecewise, polyominoes,
+ pong, pyro, qix, rd-bomb, rocks, rorschach, rotzoomer, sierpinski,
+ slip, speedmine, spotlight, squiral, starfish, strange, substrate,
+ thornbird, triangle, truchet, twang, vermiculate, vidwhacker, wander,
+ whirlwindwarp, wormhole, xanalogtv, xflame, xjack, xmatrix, xrayswarm,
+ xspirograph, zoom.
+ .
+ More display modes can be found in the xscreensaver-data, xscreensaver-gl
+ and xscreensaver-gl-extra packages.
+
+Package: xscreensaver-gl
+Description-md5: 2a5b272e00b4d71c961d06011fbf9414
+Description-en: GL(Mesa) screen saver modules for screensaver frontends
+ XScreenSaver is a modular screen saver and locker for X11,
+ containing more than 200 screen savers.
+ .
+ This package contains a small selection of 3D (OpenGL) screen
+ saver modules from the xscreensaver collection. This package is
+ used by both xscreensaver and gnome-screensaver.
+ .
+ This is the set of GL screensavers shipped by default:
+ antinspect, antspotlight, atunnel, blinkbox, bubble3d, circuit,
+ cubestorm, endgame, engine, flipflop, flipscreen3d, flyingtoasters,
+ gears, gflux, glblur, glcells, gleidescope, glknots, glmatrix,
+ glschool, glslideshow, glsnake, gltext, hypertorus, jigglypuff,
+ kaleidocycle, lavalite, lockward, mirrorblob, moebius, moebiusgears,
+ molecule, morph3d, pipes, polyhedra, polytopes, projectiveplane,
+ pulsar, quasicrystal, queens, sierpinski3d, sonar, spheremonics,
+ stonerview, superquadrics, topblock, voronoi, winduprobot.
+ .
+ More display modes can be found in the xscreensaver-data,
+ xscreensaver-data-extra and xscreensaver-gl-extra packages.
+
+Package: xscreensaver-gl-extra
+Description-md5: 85f869ce19c15adc54890883d0983a5f
+Description-en: Extra GL(Mesa) screen saver modules for screensaver frontends
+ XScreenSaver is a modular screen saver and locker for X11,
+ containing more than 200 screen savers.
+ .
+ This package contains the rest of the 3D (OpenGL) screen saver
+ modules from the xscreensaver collection. This package is used
+ by both xscreensaver and gnome-screensaver.
+ .
+ This is the set of GL screensavers not shipped by default with
+ xscreensaver-gl:
+ antmaze, atlantis, blocktube, boing, bouncingcow, boxed, cage,
+ carousel, companioncube, crackberg, cube21, cubenetic, cubicgrid,
+ dangerball, extrusion, fliptext, flurry, geodesic, glhanoi, glplanet,
+ hilbert, hypnowheel, jigsaw, juggler3d, klein, lament, menger, noof,
+ photopile, pinion, providence, rubik, rubikblocks, sballs, skytentacles,
+ sproingies, stairs, starwars, surfaces, tangram, timetunnel, tronbit,
+ unknownpleasures.
+ .
+ More display modes can be found in the xscreensaver-data,
+ xscreensaver-data-extra and xscreensaver-gl packages.
+
+Package: xscreensaver-screensaver-bsod
+Description-md5: 8e30553c8a2f764011e4104c5901f826
+Description-en: BSOD screen saver module from XScreenSaver
+ This package ships the hack BSOD that shows the popular Blue Screens of Death
+ from several OSes including BSD, Windows, Linux, Solaris, Apple and much more.
+ .
+ WARNING: This screensaver could be confused with a real BSOD and could lead an
+ user to reboot the machine with consequences like data loss.
+
+Package: xscreensaver-screensaver-webcollage
+Description-md5: 2a76d44272347c141ccfdd44325bf558
+Description-en: Webcollage screen saver module from XScreenSaver
+ This package ships the hack webcollage which displays images from random
+ web searches on the Internet.
+ .
+ WARNING: The Internet being what it is, absolutely anything might show up
+ in the collage of search results including -- quite possibly -- pornography,
+ or even nudity. Please act accordingly.
+

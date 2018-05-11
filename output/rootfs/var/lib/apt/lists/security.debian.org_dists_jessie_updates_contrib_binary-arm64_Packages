@@ -1,0 +1,75 @@
+Package: virtualbox-dkms
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 4444
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: dkms (>= 2.1.0.0)
+Description: x86 virtualization solution - kernel module sources for dkms
+Homepage: http://www.virtualbox.org/
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+Recommends: virtualbox (>= 4.3.36-dfsg-1+deb8u1)
+Section: contrib/kernel
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-dkms_4.3.36-dfsg-1+deb8u1_all.deb
+Size: 587118
+MD5sum: 3d5ca6274dca551a14f0049a806a2a6d
+SHA1: daca67d16db423da170a02547d64d294d8d1008d
+SHA256: b5c0136f969c29f996ac17f50a6aa6a23c614474c4b494aef0152cee93d47ed4
+
+Package: virtualbox-guest-dkms
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 3727
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Provides: virtualbox-guest-modules
+Depends: virtualbox-guest-utils (>= 4.3.36-dfsg-1+deb8u1), dkms (>= 2.1.0.0)
+Description: x86 virtualization solution - guest addition module source for dkms
+Homepage: http://www.virtualbox.org/
+Description-md5: e15ead9377a7f1e325ded819d3cfaf8b
+Section: contrib/kernel
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-guest-dkms_4.3.36-dfsg-1+deb8u1_all.deb
+Size: 498378
+MD5sum: d214611541d7c0bf5ff3448907cd1a03
+SHA1: 99100060bc1f7c2f8b279d0e5c3edcdf69814ca8
+SHA256: e736797ee3e9f7850dd0f63bbddd9157ef484f8f1457ebee7f3c12cb71ba4d1b
+
+Package: virtualbox-guest-source
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 671
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
+Description: x86 virtualization solution - guest addition module source
+Homepage: http://www.virtualbox.org/
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+Section: contrib/kernel
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-guest-source_4.3.36-dfsg-1+deb8u1_all.deb
+Size: 598754
+MD5sum: dbb26d68d2f56acb1dc50030bb1f8267
+SHA1: 934c05212bfca3189832ba6fcb5aa3f9c360586b
+SHA256: 50dc1165241369677b92995f0bf5742e77ffbc07caa6daafe0c008c995ba8911
+
+Package: virtualbox-source
+Source: virtualbox
+Version: 4.3.36-dfsg-1+deb8u1
+Installed-Size: 762
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
+Description: x86 virtualization solution - kernel module source
+Homepage: http://www.virtualbox.org/
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+Recommends: virtualbox (>= 4.3.36-dfsg-1+deb8u1)
+Section: contrib/kernel
+Priority: optional
+Filename: pool/updates/contrib/v/virtualbox/virtualbox-source_4.3.36-dfsg-1+deb8u1_all.deb
+Size: 691904
+MD5sum: ef9e0eb12796aa263a6792162bf37a37
+SHA1: 2eaff579a895c497c8e3345f84be012f9aaf6929
+SHA256: eca236a7a5815d4d19813f583e6e2ecc6f5634acebaef60fa01020176e9c7eaf
+

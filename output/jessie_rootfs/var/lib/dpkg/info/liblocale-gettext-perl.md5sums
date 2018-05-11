@@ -1,0 +1,8 @@
+9833f50be7895fc2eaae6b8bc883a152  usr/lib/aarch64-linux-gnu/perl5/5.20/Locale/gettext.pm
+28e04f0128c53b805357a42c0d2b43f1  usr/lib/aarch64-linux-gnu/perl5/5.20/auto/Locale/gettext/gettext.so
+c4a109f14da7c5848a3cd916f5d4ddaa  usr/share/doc/liblocale-gettext-perl/README.Debian
+acc424e0b2fca482c3ee6da57a7baa36  usr/share/doc/liblocale-gettext-perl/README.gz
+c923f40e95e6ce69491eb50f335fc9da  usr/share/doc/liblocale-gettext-perl/changelog.Debian.arm64.gz
+d6487bf0a5d11619c682fe5806a34044  usr/share/doc/liblocale-gettext-perl/changelog.Debian.gz
+685525ce048dab2e73a337be29d295ad  usr/share/doc/liblocale-gettext-perl/copyright
+db15b15f9a4ae86afe6d751db4117a8c  usr/share/man/man3/Locale::gettext.3pm.gz

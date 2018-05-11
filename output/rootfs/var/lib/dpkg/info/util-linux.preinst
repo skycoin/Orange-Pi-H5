@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+# We once shipped fstrim.timer in 2.25.2-2. Undo the timer getting enabled
+# and purge the helper state, if upgrading from that version.
+if [ "$1" = "upgrade" ] && [ "$2" = "2.25.2-2" ] && \
+		[ -x /usr/bin/deb-systemd-helper ] && \
+		deb-systemd-helper debian-installed fstrim.timer; then
+	deb-systemd-helper disable fstrim.timer
+	deb-systemd-helper purge fstrim.timer
+fi
+
+

@@ -1,0 +1,8 @@
+sun50iw2p1-cheetah-perf.o: \
+ arch/arm64/boot/dts/sun50iw2p1-cheetah-perf.dts \
+ arch/arm64/boot/dts/sun50iw2p1.dtsi \
+ /xspace/OpenSource/GitHubLinux/OrangePi/OrangePiH5/kernel/include/dt-bindings/interrupt-controller/arm-gic.h \
+ /xspace/OpenSource/GitHubLinux/OrangePi/OrangePiH5/kernel/include/dt-bindings/interrupt-controller/irq.h \
+ /xspace/OpenSource/GitHubLinux/OrangePi/OrangePiH5/kernel/include/dt-bindings/gpio/gpio.h \
+ arch/arm64/boot/dts/sun50iw2p1-clk.dtsi \
+ arch/arm64/boot/dts/sun50iw2p1-pinctrl.dtsi

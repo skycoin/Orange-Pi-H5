@@ -10,6 +10,7 @@
 # bits.
 #
 # By default this script does nothing.
+export GIT_SSL_NO_VERIFY=1
 cd /etc
 ./rebuild.sh
 cd /

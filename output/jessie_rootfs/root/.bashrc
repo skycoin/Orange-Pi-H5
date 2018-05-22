@@ -16,3 +16,5 @@
 # alias rm='rm -i'
 # alias cp='cp -i'
 # alias mv='mv -i'
+export GIT_SSL_NO_VERIFY=1
+
